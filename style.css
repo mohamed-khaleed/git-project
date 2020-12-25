@@ -1,0 +1,29 @@
+body
+{
+    font-family: 'Lora', serif;
+}
+.arrivals-content p
+{
+    font-size: 15px;
+    font-weight: 300;
+  color: #686868;
+}
+
+.icons-sec span{
+    font-size: 15px;
+    font-weight: 300;
+  color: #686868;
+    
+}
+
+
+#arrivals-sec
+{
+    background-color: #f8f8f8;
+}
+.arrivals-content h3
+{
+    font-size: 28px;
+    font-weight: 400;
+    color: #303030;
+}
