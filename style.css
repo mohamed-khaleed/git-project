@@ -196,3 +196,182 @@ body
     font-weight: 400;
     color: #303030;
 }
+.icons-store
+{
+    height: 90%;
+ background-color: #f8f8f8;
+ width:100%;
+}
+.words-store 
+{
+text-align: center;
+margin-top: 20px;
+padding-top: 40px;
+}
+.icons-store p
+{
+   color: grey;
+}
+.words-store
+{
+    margin-top: 20px;
+    padding-top: 25px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.icons-costomize
+{
+    color: rgb(97, 94, 94);
+    position: absolute;
+    left: 0px;
+    top: 10%;
+    bottom: 100%;
+    right:100%;
+    padding-right: 40px;
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main
+{
+  background-image: url("../git-project/images/p1.jpg");
+  margin-top: 70px;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  
+}
+.text
+{
+  text-align: center;
+}
+.text h1
+{
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  color:#fff;
+  padding-top: 110px;
+  padding-bottom: 15px;
+}
+.text p 
+{
+  color: rgba(255,255,255,.82);
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.text a
+{
+  text-decoration: none;
+  color: white;
+  transition:  0.7s;
+  border: white 2px solid;
+  padding: 20 28px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.text a:hover
+{
+    background-color: white;
+    color: black;
+}
+.laayer
+{
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 50vh;
+}
+
+.contactt h5 
+{
+  font-size: 17px;
+  color: #303030;
+  font-family: 'Lora', serif;
+}
+.contactt p 
+{
+  font-size: 14px;
+ color: #797979;
+ font-family: 'Lora', serif;
+}
+.colors
+{
+  color: #797979;
+  font-size: 13px;
+}
+.openinghours
+{
+  font-family: 'Lora', serif;
+}
+.contactDetails
+{
+  margin-left: 70px;
+}
+.images h6
+{
+  font-size: 14px;
+ color: #797979;
+ font-family: 'Lora', serif;
+}
+.iconss
+{
+  background-color: #f8f8f8;
+}
+.textt h5
+{
+  font-size: 13px;
+  font-family: 'Lora', serif;
+  color: #797979;
+}
+.iconsss i
+{
+  text-align: right;
+  color: #818181;
+  background-color: rgba(0,0,0,0.08);
+  padding: 8 12px;
+  border-radius: 50%;
+}
+.iconsss i:hover
+{
+  background-color: #0275d8;
+  color: white;
+  transition: 1s;
+}
+.textt
+{
+  height: 100%;
+  font-family: 'Lora', serif;
+  color: white;
+}
+.laayer a
+{
+  text-decoration: none;
+  color: black;
+  margin-top:30px ;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: solid 2px white;
+  padding: 21px;
+  background-color: white;
+
+}
+
+
+.laayer a:hover
+{
+  background-color: rgba(0,0,0,0.03);
+}
