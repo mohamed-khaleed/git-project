@@ -49,3 +49,35 @@
     margin-bottom: 30px;
     border-radius: 5px;
 }
+
+body
+{
+    font-family: 'Lora', serif;
+}
+
+.summer .text  h3
+{
+    margin: 15px  0px 25px 0px ;
+    color: #303030;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.summer .text  p
+{
+    margin: 15px  0px 25px 0px ;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #686868;
+    font-size: 1rem;
+}
+.summer .word
+{
+    margin-top: 15px;
+    color: #686868;
+    font-size: 1rem;
+}
+.summer .word i
+{
+    margin-right: 10px;
+    font-size: 18px;
+}
