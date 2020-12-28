@@ -1,3 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Home
+{
+  background-image: url(./f.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+text-align: center;
+color: white;
+}
+
+
+.caption 
+{
+  height: 100%;
+  font-family: 'Lora', serif;
+}
+.layer
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.3);
+}
+.caption h1
+{
+ 
+  font-family: 'Lora', serif;
+  font-size: 80;
+  padding-bottom: 7px;
+}
+.caption p
+{
+  font-size: 20;
+  width: 43%;
+  padding-top: 10px;
+}
+.caption h3
+{
+  font-family: 'Lora', serif;
+  font-size: 22;
+}
+.caption a
+{
+  text-decoration: none;
+  color: black;
+  margin-top:30px ;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.caption .border
+{
+  border: 2px solid transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+background-color: white;
+border-radius: 5px;
+}
+.caption a:hover
+{
+  background-color: rgba(0,0,0,0.03);
+}
+.caption
+{
+  padding-top: 30px;
+}
+.navbar
+{
+  width: 100%;
+}
+.nav-item
+{
+  color: white;
+}
+.navbar-brand .img
+{
+padding-top: 50px; 
+}
+.navbar .nav-item .nav-link
+{
+  color: white;
+}
+nav
+{
+  margin-top:  10px;
+}
+
+.fas.fa-cogs
+{
+  position: fixed;
+top: 30%;   
+  right: 0;
+  padding: 10px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+}
+.fa.fa-shopping-cart
+{
+  position: fixed;
+  top: 34%;   
+     right: 0;
+     padding: 10px;
+     padding-left: 12px ;
+     background-color: white;
+     color:gray;
+     border-radius: 5px;
+
+}
+.fas.fa-cogs:hover
+{
+  color: blue;
+}
+.fa.fa-shopping-cart:hover
+{
+  color: blue;
+}
+.fas.fa-search
+{
+  top:2%;
+  padding: 9px;
+font-size: small;
+}
+.scroll
+{
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  bottom: 50px;
+  border: 2px solid white;
+  padding: 20px 12px;
+  animation: scroll 2s infinite;
+
+}
+.fa-shopping-bag{
+  top:2%;
+  padding: 9px;
+font-size: small;
+color: white;
+
+}
+.scroll::after
+{
+content: "";
+position: absolute;
+  width: 4px;
+  height: 7px;
+  bottom: 10px;
+  left: 11px;
+  background-color: white;
+
+
+}
+@keyframes scroll
+{
+
+25%{bottom: 20px;};
+50%{bottom: 40px;};
+75%{bottom: 60px;};
+100%{bottom: 20px;};
+
+}
+
+
+
 body
 {
     font-family: 'Lora', serif;
